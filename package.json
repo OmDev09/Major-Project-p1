@@ -1,0 +1,13 @@
+{
+  "name": "mumbai-bkc-3d-map",
+  "version": "1.0.0",
+  "description": "Mumbai BKC 3D Map Digital Twin",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm.cmd install && npm.cmd install --prefix backend && npm.cmd install --prefix frontend",
+    "dev": "concurrently \"npm.cmd run dev --prefix backend\" \"npm.cmd run dev --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
